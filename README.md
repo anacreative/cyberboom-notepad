@@ -1,2 +1,2 @@
-# cyberboom-notepad
+# cyberdoom-notepad
 Simple aesthetic notepad

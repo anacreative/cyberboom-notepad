@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Cyberpunk Notepad</title>
+  <style>
+    /* Cyberpunk dark background with neon green text */
+    body {
+      margin: 0;
+      background: #0d0f14;
+      color: #39ff14;
+      font-family: 'Courier New', Courier, monospace;
+      display: flex;
+      height: 100vh;
+      justify-content: center;
+      align-items: center;
+    }
+    textarea {
+      background: #121519;
+      border: 2px solid #39ff14;
+      border-radius: 8px;
+      width: 90vw;
+      height: 80vh;
+      padding: 20px;
+      font-size: 1.1rem;
+      line-height: 1.5;
+      color: #39ff14;
+      resize: none;
+      box-shadow:
+        0 0 5px #39ff14,
+        0 0 20px #39ff14,
+        0 0 40px #00ff00;
+      outline: none;
+      caret-color: #00ff00;
+      transition: box-shadow 0.3s ease;
+    }
+    textarea:focus {
+      box-shadow:
+        0 0 10px #00ff00,
+        0 0 30px #00ff00,
+        0 0 60px #00ff00;
+      background: #0b0d11;
+    }
+    ::placeholder {
+      color: #4bff68;
+      opacity: 0.7;
+    }
+  </style>
+</head>
+<body>
+  <textarea placeholder="Enter your cyberpunk notes here..."></textarea>
+</body>
+</html>
